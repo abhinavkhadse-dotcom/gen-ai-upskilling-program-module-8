@@ -9,3 +9,10 @@ def read_root():
 @app.get("/square/{num}")
 def square_number(num: int):
     return {"number": num, "square": num**2}
+
+
+#Run Steps
+# cd backend
+# docker build -t fastapi-app .
+# docker run -d -p 8000:8000 fastapi-app
+# Visit http://localhost:8000

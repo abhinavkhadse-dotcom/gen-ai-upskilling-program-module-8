@@ -11,3 +11,10 @@ number = st.number_input("Enter a number:", value=2)
 #     st.write(f"The square of {number} is {data['square']}")
 if st.button("Calculate Square"):
     st.write(f"The square of {number} is {number**2}")
+
+#for creating docker run steps
+# cd frontend
+# docker build -t streamlit-app .
+# docker run -d -p 8501:8501 streamlit-app
+# Visit http://localhost:8501
+

@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("Calulator App With Streamlit depoyment")
+st.title("Calculator App With Streamlit depoyment")
 
 number = st.number_input("Enter a number:", value=2)
 # this is for external api calls
